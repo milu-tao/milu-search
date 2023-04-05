@@ -1,0 +1,8 @@
+{
+  "current": 1,
+  "pageSize": 8,
+  "sortField": "_score",
+  "sortOrder": "descend",
+  "searchText": "java",
+  "reviewStatus": 1
+}
