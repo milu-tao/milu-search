@@ -33,7 +33,7 @@ spring:
   # todo 需替换配置，然后取消注释
   elasticsearch:
     uris: http://localhost:9200
-    username: root
+    username: elastic
     password: 123456
   # 文件上传
   servlet:
