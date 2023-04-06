@@ -68,4 +68,6 @@ public enum SearchTypeEnum {
 ```
 接口的吞吐量在50/sec（2核2G）
 
+![image](https://user-images.githubusercontent.com/91822069/230327011-08e09620-e3b1-4691-ba65-74c491448da9.png)
+
 
