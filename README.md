@@ -66,4 +66,6 @@ public enum SearchTypeEnum {
     ;
 }
 ```
+接口的吞吐量在50/sec（2核2G）
+
 
