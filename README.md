@@ -1,10 +1,15 @@
-milu的聚合搜索平台
+hello，这里是milu的聚合搜索平台
 
-基于SpringBoot + Elastic Stack 的信息聚合搜索平台，用户可以在同一个页面查询不同来源、不同类型的数据（文章、图片、用户、视频等），开发者可以二次开发并接入自己项目
+## 项目介绍
+基于SpringBoot + Elastic Stack 的信息聚合搜索平台，用户可以在同一个页面查询不同来源、不同类型的数据（文章、图片、用户、视频等）
+主要是提供一个初始版本和环境，开发者可以二次开发并接入自己项目
 
-添加一个数据源，也可以是远程调用，但要符合DataSource中的规范
-
+## 添加数据源要点
+如果要给ES添加一个数据源，也可以是RPC远程调用，但要符合DataSource中的规范
+</br>
 ![image](https://user-images.githubusercontent.com/91822069/230319352-8fdeecc6-845d-431e-b536-82f750c37bdc.png)
+
+下面是一个文章实例的样例
 
 ```java
 public interface DataSource<T> {
